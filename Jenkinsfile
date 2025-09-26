@@ -13,7 +13,7 @@ pipeline {
 
         stage("Checkout from SCM") {
                steps {
-                   git branch: 'main', credentialsId: 'github', url: 'link'
+                   git branch: 'main', credentialsId: 'github', url: 'https://github.com/HashCode12/gitops-register-devops-Con-'
                }
         }
 
