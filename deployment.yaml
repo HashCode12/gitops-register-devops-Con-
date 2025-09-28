@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: pooh1/register-app-pipeline:28
+          image: pooh1/register-app-pipeline:29
           resources:
             limits:
               memory: "256Mi"
